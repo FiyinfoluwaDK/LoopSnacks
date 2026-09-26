@@ -6,7 +6,7 @@ public class LetterPrint{
   System.out.println("Enter a word");
   String word = scanner.nextInt();
     
-    for(int count = 1; count < word.length(); count++){
+    for(int count = 0; count < word.length(); count++){
       System.out.println(word.charAt(count));
     }
   }
